@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T12:05:55.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JQ5btMPXQ67tmGPLz6No" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T13:19:30.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JOBipJc0UD550JzUlmLR" version="20.8.5" type="github">
   <diagram id="8fwQue622_lrpJ2JNK0t" name="Page-1">
     <mxGraphModel dx="2284" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="SF89tTnGyxcnFl5orWCE-8" value="&lt;br&gt;1)Read from PriorityList&lt;br&gt;2)Read From Email&lt;br&gt;Based on the argument&lt;br&gt;&lt;br&gt;Master Q Key - UserID_Month_Year" style="spacingLeft=10;spacingRight=10;shape=mxgraph.mockup.text.stickyNote2;zwfType=stickyShape;strokeWidth=0;strokeColor=#CAE33E;fillColor=#D8F636;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="331" width="150" height="149" as="geometry" />
         </mxCell>
-        <mxCell id="SF89tTnGyxcnFl5orWCE-9" value="Read Associated accounts from db and populate &lt;b&gt;SubQ&lt;/b&gt;,&lt;br&gt;&amp;nbsp;&lt;br&gt;Sub Q Key -&lt;br&gt;UserID_Month_Year_Type_AccNo" style="spacingLeft=10;spacingRight=10;shape=mxgraph.mockup.text.stickyNote2;zwfType=stickyShape;strokeWidth=0;strokeColor=#CAE33E;fillColor=#D8F636;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SF89tTnGyxcnFl5orWCE-9" value="Read Associated accounts from db and populate &lt;b&gt;SubQ&lt;/b&gt;,&lt;br&gt;&amp;nbsp;&lt;br&gt;Sub Q Key -&lt;br&gt;UserID_Month_Year_Type_AccNo&lt;br&gt;&lt;br&gt;Set SubQ Item Tag starting same as Key" style="spacingLeft=10;spacingRight=10;shape=mxgraph.mockup.text.stickyNote2;zwfType=stickyShape;strokeWidth=0;strokeColor=#CAE33E;fillColor=#D8F636;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="331" width="180" height="149" as="geometry" />
         </mxCell>
         <mxCell id="SF89tTnGyxcnFl5orWCE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SF89tTnGyxcnFl5orWCE-13" target="SF89tTnGyxcnFl5orWCE-15" edge="1">
@@ -54,11 +54,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SF89tTnGyxcnFl5orWCE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SF89tTnGyxcnFl5orWCE-15" target="SF89tTnGyxcnFl5orWCE-23" edge="1">
+        <mxCell id="SF89tTnGyxcnFl5orWCE-24" value="OTC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SF89tTnGyxcnFl5orWCE-15" target="SF89tTnGyxcnFl5orWCE-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SF89tTnGyxcnFl5orWCE-15" value="What&#39;s Next&lt;br&gt;Choice?" style="zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="265" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SF89tTnGyxcnFl5orWCE-21" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SF89tTnGyxcnFl5orWCE-16" target="SF89tTnGyxcnFl5orWCE-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -84,7 +84,7 @@
         <mxCell id="BfOnNY_YY4qrmuT2SfUB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SF89tTnGyxcnFl5orWCE-26" target="BfOnNY_YY4qrmuT2SfUB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SF89tTnGyxcnFl5orWCE-26" value="Invoke MEDC bill download process with argument &lt;b&gt;MasterQ Key&lt;/b&gt;+&lt;b&gt;OTC&lt;/b&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SF89tTnGyxcnFl5orWCE-26" value="Invoke OTC bill download process with argument &lt;b&gt;MasterQ Key&lt;/b&gt;+&lt;b&gt;OTC&lt;/b&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=2;strokeColor=#474D66;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="255" width="161.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BfOnNY_YY4qrmuT2SfUB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BfOnNY_YY4qrmuT2SfUB-4" target="BfOnNY_YY4qrmuT2SfUB-7">
@@ -130,6 +130,9 @@
         </mxCell>
         <mxCell id="BfOnNY_YY4qrmuT2SfUB-19" value="Mark item for retry later" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="787" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BfOnNY_YY4qrmuT2SfUB-23" value="&lt;b&gt;In Sub Processes&lt;/b&gt;&lt;br&gt;&lt;b&gt;----------------------------&lt;/b&gt;&lt;br&gt;InArgument : &lt;b&gt;MasterQ Key+ProviderType&lt;/b&gt;&lt;br&gt;&lt;br&gt;Get Items from Queue matching Tag with InArgument&lt;br&gt;Iterate and complete the Queue&lt;br&gt;&lt;ul&gt;&lt;li&gt;Update DB and SubQ item after each download&lt;/li&gt;&lt;/ul&gt;" style="spacingLeft=10;spacingRight=10;shape=mxgraph.mockup.text.stickyNote2;zwfType=stickyShape;strokeWidth=0;strokeColor=#CAE33E;fillColor=#D8F636;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="20" width="240" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
